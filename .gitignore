@@ -1,0 +1,26 @@
+# Local chats, settings, access key, and temporary verification files
+/data/
+
+# Python environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ruff_cache/
+
+# Local secrets, including when a custom data directory is used
+.env
+.env.*
+!.env.example
+access.key
+*.sqlite3
+*.sqlite3-*
+
+# Generated local previews (may contain chat history)
+/preview.png
+/preview-minimal.png
+
+# OS files
+.DS_Store
+Thumbs.db
